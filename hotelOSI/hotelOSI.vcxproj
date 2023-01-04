@@ -124,7 +124,6 @@
     <ClCompile Include="ChangePasswordForm.cpp" />
     <ClCompile Include="LoginForm.cpp" />
     <ClCompile Include="MyForm.cpp" />
-    <ClCompile Include="ProvjeraIdentiteta.cpp" />
     <ClCompile Include="RegistrationForm.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -135,9 +134,6 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="MyForm.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
-    <ClInclude Include="ProvjeraIdentiteta.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="RegistrationForm.h">
@@ -153,9 +149,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MyForm.resx">
       <DependentUpon>MyForm.h</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ProvjeraIdentiteta.resx">
-      <DependentUpon>ProvjeraIdentiteta.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegistrationForm.resx">
       <DependentUpon>RegistrationForm.h</DependentUpon>

@@ -1,5 +1,4 @@
 ﻿#pragma once
-#include "ProvjeraIdentiteta.h"
 namespace hotelOSI {
 
 	using namespace System;
@@ -34,7 +33,7 @@ namespace hotelOSI {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::Button^ button1;
+
 	protected:
 	private: System::Windows::Forms::TextBox^ textBox2;
 	private: System::Windows::Forms::TextBox^ textBox1;
@@ -43,6 +42,11 @@ namespace hotelOSI {
 	private: System::Windows::Forms::Label^ label1;
 	private: System::Windows::Forms::TextBox^ textBox3;
 	private: System::Windows::Forms::Label^ label4;
+	private: System::Windows::Forms::TextBox^ textBox6;
+	private: System::Windows::Forms::Label^ label8;
+	private: System::Windows::Forms::ListBox^ listBox1;
+	private: System::Windows::Forms::Label^ label7;
+	private: System::Windows::Forms::Button^ button2;
 
 	private:
 		/// <summary>
@@ -57,7 +61,6 @@ namespace hotelOSI {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->textBox2 = (gcnew System::Windows::Forms::TextBox());
 			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
 			this->label3 = (gcnew System::Windows::Forms::Label());
@@ -65,19 +68,12 @@ namespace hotelOSI {
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->textBox3 = (gcnew System::Windows::Forms::TextBox());
 			this->label4 = (gcnew System::Windows::Forms::Label());
+			this->textBox6 = (gcnew System::Windows::Forms::TextBox());
+			this->label8 = (gcnew System::Windows::Forms::Label());
+			this->listBox1 = (gcnew System::Windows::Forms::ListBox());
+			this->label7 = (gcnew System::Windows::Forms::Label());
+			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
-			// 
-			// button1
-			// 
-			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(0)));
-			this->button1->Location = System::Drawing::Point(665, 348);
-			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(102, 36);
-			this->button1->TabIndex = 11;
-			this->button1->Text = L"Dalje";
-			this->button1->UseVisualStyleBackColor = true;
-			this->button1->Click += gcnew System::EventHandler(this, &ChangePasswordForm::button1_Click);
 			// 
 			// textBox2
 			// 
@@ -144,14 +140,72 @@ namespace hotelOSI {
 			this->label4->TabIndex = 12;
 			this->label4->Text = L"Potvrda lozinke";
 			// 
+			// textBox6
+			// 
+			this->textBox6->Location = System::Drawing::Point(377, 445);
+			this->textBox6->Name = L"textBox6";
+			this->textBox6->Size = System::Drawing::Size(390, 26);
+			this->textBox6->TabIndex = 31;
+			// 
+			// label8
+			// 
+			this->label8->AutoSize = true;
+			this->label8->Font = (gcnew System::Drawing::Font(L"Modern No. 20", 14, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label8->Location = System::Drawing::Point(43, 440);
+			this->label8->Name = L"label8";
+			this->label8->Size = System::Drawing::Size(106, 30);
+			this->label8->TabIndex = 30;
+			this->label8->Text = L"Odgovor";
+			// 
+			// listBox1
+			// 
+			this->listBox1->FormattingEnabled = true;
+			this->listBox1->ItemHeight = 20;
+			this->listBox1->Items->AddRange(gcnew cli::array< System::Object^  >(4) {
+				L"Ime prvog ljubimca\?", L"Ime roditelja\?", L"Ime omiljene pjesme\?",
+					L"Ime omiljenog filma\?"
+			});
+			this->listBox1->Location = System::Drawing::Point(377, 384);
+			this->listBox1->Name = L"listBox1";
+			this->listBox1->Size = System::Drawing::Size(390, 24);
+			this->listBox1->TabIndex = 29;
+			// 
+			// label7
+			// 
+			this->label7->AutoSize = true;
+			this->label7->Font = (gcnew System::Drawing::Font(L"Modern No. 20", 14, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->label7->Location = System::Drawing::Point(43, 378);
+			this->label7->Name = L"label7";
+			this->label7->Size = System::Drawing::Size(180, 30);
+			this->label7->TabIndex = 28;
+			this->label7->Text = L"Odabir pitanja";
+			// 
+			// button2
+			// 
+			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->button2->Location = System::Drawing::Point(665, 566);
+			this->button2->Name = L"button2";
+			this->button2->Size = System::Drawing::Size(102, 36);
+			this->button2->TabIndex = 27;
+			this->button2->Text = L"Potvrda";
+			this->button2->UseVisualStyleBackColor = true;
+			this->button2->Click += gcnew System::EventHandler(this, &ChangePasswordForm::button2_Click);
+			// 
 			// ChangePasswordForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(836, 396);
+			this->ClientSize = System::Drawing::Size(836, 623);
+			this->Controls->Add(this->textBox6);
+			this->Controls->Add(this->label8);
+			this->Controls->Add(this->listBox1);
+			this->Controls->Add(this->label7);
+			this->Controls->Add(this->button2);
 			this->Controls->Add(this->textBox3);
 			this->Controls->Add(this->label4);
-			this->Controls->Add(this->button1);
 			this->Controls->Add(this->textBox2);
 			this->Controls->Add(this->textBox1);
 			this->Controls->Add(this->label3);
@@ -164,12 +218,8 @@ namespace hotelOSI {
 
 		}
 #pragma endregion
-	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-		
-			this->Hide();
-			ProvjeraIdentiteta^ form2 = gcnew ProvjeraIdentiteta;
-			form2->Show();
-		
-	}
+	
+private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+}
 };
 }
