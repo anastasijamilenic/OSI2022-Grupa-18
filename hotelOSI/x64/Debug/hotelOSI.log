@@ -1,1 +1,10 @@
-﻿  hotelOSI.vcxproj -> C:\Users\38765\Desktop\bla\hotel\hotelOSI\x64\Debug\hotelOSI.exe
+﻿  ChangePasswordForm.cpp
+  dodavanjeSoba.cpp
+  LoginForm.cpp
+  MyForm.cpp
+C:\Users\PC\Desktop\GIT PROJEKAT\OSI\hotelOSI\MyForm.cpp(9,33): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  RegistrationForm.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+  ChangePasswordForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  hotelOSI.vcxproj -> C:\Users\PC\Desktop\GIT PROJEKAT\OSI\hotelOSI\x64\Debug\hotelOSI.exe

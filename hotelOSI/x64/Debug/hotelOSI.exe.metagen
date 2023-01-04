@@ -1,4 +1,5 @@
   hotelOSI.ChangePasswordForm.resources - Embedded, ContainedInManifestFile, 
+  hotelOSI.dodavanjeSoba.resources - Embedded, ContainedInManifestFile, 
   hotelOSI.LoginForm.resources - Embedded, ContainedInManifestFile, 
   hotelOSI.MyForm.resources - Embedded, ContainedInManifestFile, 
   hotelOSI.RegistrationForm.resources - Embedded, ContainedInManifestFile, 
@@ -18,6 +19,9 @@ Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=
 Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
 	hash=None, flags=None
 Class hotelOSI.ChangePasswordForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class hotelOSI.dodavanjeSoba: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class hotelOSI.LoginForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit

@@ -122,12 +122,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ChangePasswordForm.cpp" />
+    <ClCompile Include="dodavanjeSoba.cpp" />
     <ClCompile Include="LoginForm.cpp" />
     <ClCompile Include="MyForm.cpp" />
     <ClCompile Include="RegistrationForm.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ChangePasswordForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="dodavanjeSoba.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="LoginForm.h">
@@ -143,6 +147,9 @@
   <ItemGroup>
     <EmbeddedResource Include="ChangePasswordForm.resx">
       <DependentUpon>ChangePasswordForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dodavanjeSoba.resx">
+      <DependentUpon>dodavanjeSoba.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.h</DependentUpon>

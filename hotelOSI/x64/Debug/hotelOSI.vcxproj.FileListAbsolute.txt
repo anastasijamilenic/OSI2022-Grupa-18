@@ -15,3 +15,12 @@ C:\Users\38765\Desktop\bla\hotel\hotelOSI\x64\Debug\hotelOSI.MyForm.resources
 C:\Users\38765\Desktop\bla\hotel\hotelOSI\x64\Debug\hotelOSI.RegistrationForm.resources
 C:\Users\38765\Desktop\bla\hotel\hotelOSI\x64\Debug\hotelOSI.vcxproj.GenerateResource.cache
 C:\Users\38765\Desktop\bla\hotel\hotelOSI\x64\Debug\hotelOSI.exe
+C:\Users\PC\Desktop\GIT PROJEKAT\OSI\hotelOSI\x64\Debug\hotelOSI.vcxproj.AssemblyReference.cache
+C:\Users\PC\Desktop\GIT PROJEKAT\OSI\hotelOSI\x64\Debug\hotelOSI.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\PC\Desktop\GIT PROJEKAT\OSI\hotelOSI\x64\Debug\hotelOSI.ChangePasswordForm.resources
+C:\Users\PC\Desktop\GIT PROJEKAT\OSI\hotelOSI\x64\Debug\hotelOSI.dodavanjeSoba.resources
+C:\Users\PC\Desktop\GIT PROJEKAT\OSI\hotelOSI\x64\Debug\hotelOSI.LoginForm.resources
+C:\Users\PC\Desktop\GIT PROJEKAT\OSI\hotelOSI\x64\Debug\hotelOSI.MyForm.resources
+C:\Users\PC\Desktop\GIT PROJEKAT\OSI\hotelOSI\x64\Debug\hotelOSI.RegistrationForm.resources
+C:\Users\PC\Desktop\GIT PROJEKAT\OSI\hotelOSI\x64\Debug\hotelOSI.vcxproj.GenerateResource.cache
+C:\Users\PC\Desktop\GIT PROJEKAT\OSI\hotelOSI\x64\Debug\hotelOSI.exe
