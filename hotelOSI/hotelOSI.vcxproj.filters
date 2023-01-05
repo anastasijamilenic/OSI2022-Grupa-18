@@ -27,6 +27,9 @@
     <ClCompile Include="RegistrationForm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="dodavanjeSoba.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
@@ -39,6 +42,9 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="RegistrationForm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dodavanjeSoba.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

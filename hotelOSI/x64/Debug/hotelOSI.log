@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  MyForm.cpp
 C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(370,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'System::String ^'
 C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(370,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'System::String ^'
@@ -46,3 +47,15 @@ C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(385,13): warning C4
   Generating Code...
   ChangePasswordForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   hotelOSI.vcxproj -> C:\Users\38765\Desktop\bla\hotel\hotelOSI\x64\Debug\hotelOSI.exe
+=======
+﻿  ChangePasswordForm.cpp
+  dodavanjeSoba.cpp
+  LoginForm.cpp
+  MyForm.cpp
+C:\Users\PC\Desktop\GIT PROJEKAT\OSI\hotelOSI\MyForm.cpp(9,33): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  RegistrationForm.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+  ChangePasswordForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  hotelOSI.vcxproj -> C:\Users\PC\Desktop\GIT PROJEKAT\OSI\hotelOSI\x64\Debug\hotelOSI.exe
+>>>>>>> e4c6c1c482203dffecb0e8fb17cbb001b6fe99e0
