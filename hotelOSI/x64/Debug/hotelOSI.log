@@ -1,1 +1,48 @@
-﻿  hotelOSI.vcxproj -> C:\Users\38765\Desktop\bla\hotel\hotelOSI\x64\Debug\hotelOSI.exe
+﻿  MyForm.cpp
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(370,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(370,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(370,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 3 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(370,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 4 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(370,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 5 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(370,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 6 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(379,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(379,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(379,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 3 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(379,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 4 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(379,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 5 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(379,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 6 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(388,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(388,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(388,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 3 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(388,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 4 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(388,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 5 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(388,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 6 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(367,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(376,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(385,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\MyForm.cpp(9,33): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  RegistrationForm.cpp
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(370,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(370,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(370,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 3 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(370,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 4 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(370,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 5 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(370,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 6 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(379,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(379,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(379,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 3 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(379,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 4 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(379,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 5 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(379,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 6 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(388,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(388,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(388,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 3 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(388,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 4 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(388,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 5 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(388,17): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 6 has type 'System::String ^'
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(367,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(376,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\38765\Desktop\bla\hotel\hotelOSI\RegistrationForm.h(385,13): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  ChangePasswordForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  hotelOSI.vcxproj -> C:\Users\38765\Desktop\bla\hotel\hotelOSI\x64\Debug\hotelOSI.exe
